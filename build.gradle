@@ -92,7 +92,7 @@ clean {
 
 if (slice.iceVersion.contains('3.7')) {
     iceversion="-ice37"
-    dependencies.add('compile', 'com.zeroc:ice:3.7.1')
+    dependencies.add('compile', 'com.zeroc:ice:3.7.2')
     sourceSets.main.java {
         srcDirs 'src/main/ice37', 'src/generated/ice37'
     }
