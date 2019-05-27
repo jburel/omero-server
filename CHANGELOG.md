@@ -1,5 +1,7 @@
 5.5.0 (May 2019)
 ----------------
+
+- Do not set the trustStore properties if empty
 - Revert "Have graph path report reference decoupled Javadoc."
 - Have session provider use Java helper instead of Guava.
 - Remove wildcard from git ignore exclusion.
@@ -21,4 +23,4 @@
 - Extend Javadoc of new full-text indexer stand-in.
 - Index numeric annotation values.
 - Use new Gradle build system.
-- Extract omero-renderer from the openmicroscopy repository.
+- Extract omero-server from the openmicroscopy repository.
