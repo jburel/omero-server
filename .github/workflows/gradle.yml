@@ -9,9 +9,9 @@ on:
 
 jobs:
   build:
-    - uses: jburel/action-workflows/.github/workflows/gradle_build.yml@v1.2
-      with:
-        action-ice: "true"
+    uses: jburel/action-workflows/.github/workflows/gradle_build.yml@v1.2
+    with:
+      action-ice: "true"
   publish_snapshots:
     if: ${{ github.ref == 'refs/heads/master' && github.repository_owner == 'ome' }}
     needs: build
