@@ -167,7 +167,7 @@ public class ThumbnailBean extends AbstractLevel2Service
     public static final float DEFAULT_COMPRESSION_QUALITY = 0.85F;
 
     /** The default MIME type. */
-    public static final String DEFAULT_MIME_TYPE = "image/jpeg";
+    public static final String DEFAULT_MIME_TYPE = ThumbnailCtx.DEFAULT_MIME_TYPE;
 
     /**
      * read-write lock to prevent READ-calls during WRITE operations.
